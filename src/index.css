@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #060A14;
+    --card: #0E1525;
+    --line: #1B2640;
+    --fg: #EEF2FB;
+    --mut: #97A3BA;
+    --ac: #2F6BFF;
+    --pc: #9DBCFF;
+    --pa: #FFB547;
+    --pa-tint: rgba(255, 181, 71, 0.16);
+  }
+
+  body {
+    font-family: "Instrument Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-serif-italic {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@keyframes hero-drift {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(6%, -8%) scale(1.12); }
+}
+
+.animate-hero-drift-1 {
+  animation: hero-drift 16s ease-in-out infinite alternate;
+}
+
+.animate-hero-drift-2 {
+  animation: hero-drift 20s ease-in-out infinite alternate-reverse;
+}

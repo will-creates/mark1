@@ -1,0 +1,6 @@
+{
+  "name": "Mark — Your Marketing Friend",
+  "description": "Marketing that tells you what to do next. Get one clear plan, one small action a day, and an honest weekly read on what is working.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
